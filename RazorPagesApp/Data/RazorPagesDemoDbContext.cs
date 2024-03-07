@@ -6,7 +6,7 @@ namespace RazorPagesDemoApp.Data
 {
     public class RazorPagesDemoDbContext : DbContext
     {
-
+        //Database bağlanmma işlemi
         public RazorPagesDemoDbContext(DbContextOptions options) : base(options)
         {
         }
